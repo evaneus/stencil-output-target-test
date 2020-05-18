@@ -1,0 +1,1 @@
+export {MyComponent} from '../dist/custom-elements-bundle/index.mjs';
