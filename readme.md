@@ -2,6 +2,29 @@
 
 # Test Custom Elements Bundle
 
+[UPDATED]
+This works, problems were: 
+
+1) using lodash and not lodash-es
+2) agadoo not correct.
+
+
+To run working example:
+
+```bash
+npm install
+npm run build
+npx run rollup:one
+npx run rollup:two
+```
+
+`rollup:one` and `rollup:two` builds modules with rollup consuming one component each from the `dist/custom-elements-bundle` bundle.
+
+
+
+[ORIGINAL]
+
+
 The bundle created by the `dist-custom-elements-bundle` output target should be tree-shakeable according to docs, but according to [agadoo](https://github.com/Rich-Harris/agadoo) it is not:
 
 ```bash

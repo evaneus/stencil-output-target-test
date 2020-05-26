@@ -22,7 +22,9 @@
     "start": "stencil build --dev --watch --serve",
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watchAll",
-    "generate": "stencil generate"
+    "generate": "stencil generate",
+    "rollup:one": "mkdir -p dist/rollup-test && npx rollup rollup-test/my-component.js > dist/rollup-test/my-component.entry.js",
+    "rollup:two": "mkdir -p dist/rollup-test && npx rollup rollup-test/second-component.js > dist/rollup-test/second-component.entry.js"
   },
   "devDependencies": {
     "@stencil/core": "^1.12.2",
