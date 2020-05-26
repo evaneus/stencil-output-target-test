@@ -1,6 +1,6 @@
 import { Component, Prop, h } from '@stencil/core';
 import { format } from '../../utils/utils';
-import startCase from 'lodash/startCase';
+import  startCase  from 'lodash-es/startCase';
 
 @Component({
   tag: 'second-component',
