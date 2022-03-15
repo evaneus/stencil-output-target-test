@@ -29,7 +29,7 @@
   "devDependencies": {
     "@stencil/core": "^1.12.2",
     "@types/lodash": "^4.14.151",
-    "lodash-es": "^4.17.15",
+    "lodash-es": "^4.17.21",
     "rollup": "^2.10.2",
     "rollup-plugin-visualizer": "^4.0.4"
   },
